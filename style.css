@@ -4,7 +4,6 @@ margin: 20px;
 background-color: #DAA06D;
 }
 
-
 h1 {
 font-size: 2em;
 color: #3a86ff;
@@ -12,7 +11,6 @@ text-transform: uppercase;
 border-bottom: 2px solid #3a86ff;
 padding-bottom: 10px;
 }
-
 
 h2 {
 font-size: 1.5em;
@@ -29,6 +27,7 @@ align-items: center;
 gap: 20px;
 margin: 10px 0 20px 0;
 }
+
 ul {
 list-style-type: square;
 margin: 10px 0 20px 20px;
@@ -37,6 +36,7 @@ margin: 10px 0 20px 20px;
 ul li {
 margin-bottom: 5px;
 }
+
 .info-container img {
 width: 100px;
 height: 100px;
