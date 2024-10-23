@@ -1,4 +1,4 @@
-/* General styles */
+
 body {
     font-family: 'Arial', sans-serif;
     background: linear-gradient(to right, #86A8E7, #5FFBF1, #D16BA5);
@@ -6,7 +6,6 @@ body {
     color: #333;
 }
 
-/* Container styles */
 .survey-container {
     background-color: lightgoldenrodyellow;
     max-width: 750px;
@@ -16,7 +15,6 @@ body {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-/* Title and description */
 h1 {
     color: #4a90e2;
     text-align: center;
@@ -29,7 +27,6 @@ h1 {
     margin-bottom: 20px;
 }
 
-/* Form group styling */
 .form-group {
     margin-bottom: 25px;
     padding: 15px;
@@ -39,7 +36,6 @@ h1 {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* Labels */
 label {
     display: block;
     margin-bottom: 5px;
@@ -47,7 +43,6 @@ label {
     color: #333;
 }
 
-/* Inputs, Select, and Textarea styling */
 input, select, textarea {
     width: 95%;
     padding: 10px;
@@ -57,7 +52,6 @@ input, select, textarea {
     font-size: 16px;
 }
 
-/* Interactive Element Styles */
 .radio-label, .checkbox-label {
     display: block;
     margin-bottom: 8px;
@@ -73,7 +67,6 @@ input, select, textarea {
     background-color: #d8ecf6;
 }
 
-/* Button Styling */
 button {
     background-color: #4a90e2;
     color: white;
@@ -89,7 +82,6 @@ button:hover {
     background-color: #357ABD;
 }
 
-/* Text Area */
 textarea {
     resize: vertical;
     height: 120px;
