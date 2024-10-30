@@ -1,0 +1,26 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Monospace;
+}
+
+body{
+    background: #3F4868;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+ul{
+list-style-type: none;
+font-size: 110%;
+}
+
+.container .center{
+    position: center;
+    background: #A9806A;
+    padding: 50px;
+}
