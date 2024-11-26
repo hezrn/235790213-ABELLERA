@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iPhone 6 Feedback Survey</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="survey-container">
+        <h1 id="title">iPhone 6 Feedback Survey</h1>
+        <p id="description">Share your thoughts on the new iPhone 6! We value your feedback.</p>
+
+        <form id="survey-form">
+            <!-- Name Input -->
+            <div class="form-group">
+                <label id="name-label" for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your name" required>
+            </div>
+
+            <!-- Email Input -->
+            <div class="form-group">
+                <label id="email-label" for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Your email" required>
+            </div>
+
+            <!-- Age Input -->
+            <div class="form-group">
+                <label id="number-label" for="number">Age:</label>
+                <input type="number" id="number" name="age" placeholder="Your age" min="18" max="100" required>
+            </div>
+
+            <!-- Select Dropdown -->
+            <div class="form-group">
+                <label for="dropdown">How did you first hear about the iPhone 6?</label>
+                <select id="dropdown" name="source" required>
+                    <option value="" disabled selected>Select one</option>
+                    <option value="social media">Social Media</option>
+                    <option value="news">News/Media</option>
+                    <option value="friends">Friends/Family</option>
+                    <option value="advertisement">Advertisement</option>
+                </select>
+            </div>
+
+            <!-- New Question - How long have you been using Apple products? -->
+            <div class="form-group">
+                <label for="usage">How long have you been using Apple products?</label>
+                <select id="usage" name="usage">
+                    <option value="" disabled selected>Select one</option>
+                    <option value="less than a year">Less than a year</option>
+                    <option value="1-3 years">1-3 years</option>
+                    <option value="3-5 years">3-5 years</option>
+                    <option value="more than 5 years">More than 5 years</option>
+                </select>
+            </div>
+
+            <!-- Radio Buttons -->
+            <div class="form-group">
+                <p>How would you rate your experience with iPhone 6?</p>
+                <label class="radio-label">
+                    <input type="radio" name="experience" value="excellent" required> Excellent
+                </label>
+                <label class="radio-label">
+                    <input type="radio" name="experience" value="good"> Good
+                </label>
+                <label class="radio-label">
+                    <input type="radio" name="experience" value="average"> Average
+                </label>
+                <label class="radio-label">
+                    <input type="radio" name="experience" value="poor"> Poor
+                </label>
+            </div>
+
+            <!-- Checkboxes -->
+            <div class="form-group">
+                <p>Which features do you appreciate the most? (Select all that apply)</p>
+                <label class="checkbox-label">
+                    <input type="checkbox" name="features" value="design"> Design
+                </label>
+                <label class="checkbox-label">
+                    <input type="checkbox" name="features" value="camera"> Camera Quality
+                </label>
+                <label class="checkbox-label">
+                    <input type="checkbox" name="features" value="performance"> Performance
+                </label>
+                <label class="checkbox-label">
+                    <input type="checkbox" name="features" value="battery"> Battery Life
+                </label>
+            </div>
+
+            <!-- New Question - Purchase Decision -->
+            <div class="form-group">
+                <p>Would you consider purchasing another iPhone in the future?</p>
+                <label class="radio-label">
+                    <input type="radio" name="purchase-decision" value="yes" required> Yes
+                </label>
+                <label class="radio-label">
+                    <input type="radio" name="purchase-decision" value="no"> No
+                </label>
+                <label class="radio-label">
+                    <input type="radio" name="purchase-decision" value="unsure"> Unsure
+                </label>
+            </div>
+
+            <!-- Text Area -->
+            <div class="form-group">
+                <label for="comments">Any suggestions for improvement?</label>
+                <textarea id="comments" name="comments" placeholder="Share your suggestions..."></textarea>
+            </div>
+
+            <!-- Submit Button -->
+            <div class="form-group">
+                <button type="submit" id="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>
